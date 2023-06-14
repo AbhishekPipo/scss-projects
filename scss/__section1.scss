@@ -1,0 +1,38 @@
+.section1{
+    filter: contrast(100%);
+width: 100%;
+height: 80vh;
+background: url(../assets/Screenshot\ from\ 2023-06-12\ 13-15-00.png);
+
+background-size: cover;
+.main-div {
+    margin-left: 400px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Optional: Set a height for the container */
+    background-position: center;
+   
+
+  .learn-more {
+    
+    
+    justify-content: center;
+    font-weight: bold;
+    background-color: #111;
+    color: white; /* Optional: Set the text color to white */
+    padding: 10px 20px; /* Optional: Add padding for better visual appearance */
+    text-decoration: none; /* Optional: Remove underline from the link */
+  }
+  
+  
+  .brand-title {
+    font-weight: bold;
+    font-size: 6.5rem;
+    line-height: 1; /* Set the line height to 1 to remove space between lines */
+  }
+  
+}}
+

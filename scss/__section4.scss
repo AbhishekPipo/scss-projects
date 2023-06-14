@@ -1,0 +1,57 @@
+@import "./_variable";
+.section4{
+    height: 140vh;
+    background-color: $primary-color;
+padding: 100px ;
+    #section4-container{
+// margin-top: 200px;
+z-index: 0;
+position: relative;
+        // background-color: green;
+        background-image: url(../assets/svg-export/svgexport-14.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 60vw;
+        height: 120vh;
+#laptop-img{
+    // width: 600px;
+    position: relative;
+ top: 100px;   
+ right: 100px;
+}
+       .cards{
+        position: relative;
+        z-index: 1;
+        top: -100px;
+        left: 200px;
+        display: flex;
+        .card{
+            background-color: whitesmoke    ;
+            height: 450px;
+            margin-left: 18px;
+            .card-text{
+                text-align: center;
+            }
+            .card-img-top{
+                // margin: ;
+                // width: fit-content;
+                // width: min-content;
+                width: 80%;
+                height: 45%;
+                margin-left: 2rem;
+                margin-top: 3rem;
+            }
+            .anchor{
+                display: flex;
+                color: #111;
+                text-align: center;
+                justify-content: center;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+        }
+       }
+    }
+
+}
